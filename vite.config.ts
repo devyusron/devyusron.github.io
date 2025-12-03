@@ -5,7 +5,7 @@ import svgr from "vite-plugin-svgr";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/admin", 
+  base: "/admin/", 
   plugins: [
     react(),
     svgr({
